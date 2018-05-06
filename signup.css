@@ -1,4 +1,4 @@
-body {
+ body {
   background-image: url("./pics/stu.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -39,7 +39,6 @@ body {
   text-align: center;
   padding: 14px 22px;
   text-decoration: none;
-  margin-left: ;
 }
 
 .navbar a:hover {
@@ -64,8 +63,7 @@ input[type="text"] {
   font-size: 20px;
   font-weight: bold;
   background-color: black;
-  background-image: <a href="http://imgbox.com/iIwg6PR5" target="_blank"><img src="https://images2.imgbox.com/70/ae/iIwg6PR5_o.png"
-    alt="image host"/></a>;
+  background-image: url("http://imgbox.com/iIwg6PR5");
   background-repeat: no-repeat;
   padding: 12px 5px 12px 50px;
   -webkit-transition: width 0.4s ease-in-out;
@@ -83,13 +81,6 @@ input[type="text"]:focus {
 }
 
 /* Form */
-* {
-  box-sizing: border-box;
-  -webkit-transition: all 0.8s ease-in-out;
-  -moz-transition: all 0.8s ease-in-out;
-  -ms-transition: all 0.8s ease-in-out;
-  -o-transition: all 0.8s ease-in-out;
-}
 
 .columns {
   float: left;
@@ -214,4 +205,4 @@ input[type="text"]:focus {
   width: 40px;
   margin-left: 1%;
   position: fixed;
-}
+} 
